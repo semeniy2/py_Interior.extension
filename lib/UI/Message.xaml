@@ -1,0 +1,21 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       
+        Title="Warning" 
+        Height="126" 
+        Width="465" 
+        WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Label x:Name="text" 
+               Content="Label" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" HorizontalContentAlignment="Center" 
+               FontSize="16" 
+               Width="392" 
+               Height="64" 
+               VerticalContentAlignment="Center" />
+
+
+    </Grid>
+</Window>

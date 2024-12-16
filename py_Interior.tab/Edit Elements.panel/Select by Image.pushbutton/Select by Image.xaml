@@ -1,0 +1,49 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="av"
+        Title="Select Family Type" 
+        Width="500"
+        Height="650" 
+        WindowStartupLocation="CenterScreen" >
+
+
+    <Grid Margin="10,10,10,10">
+
+
+       
+        <ListBox Name="UI_Listbox" 
+                 HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Stretch"
+                 SelectionChanged="UI_ListBox_SelectionChanged"
+                 ScrollViewer.CanContentScroll="False" >
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal" >
+                    <Image Width="120" Height="90" Source="Z:/temp/1/123.jpg"
+                           />
+
+                    <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="499.8">
+                        <TextBlock Text="Строка 1" Margin="0,10,0,5"/>
+                        <TextBlock Text="Строка 2" Margin="0,0,0,5"/>
+                        <TextBlock Text="Строка 3" Margin="0,0,0,5"/>
+                    </StackPanel>
+                </StackPanel>
+             
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal" >
+                    <Image Width="120" Height="90" Source="Z:/temp/1/123.jpg" />
+
+                    <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="499.8">
+                        <TextBlock Text="Строка 1" Margin="0,10,0,5"/>
+                        <TextBlock Text="Строка 2" Margin="0,0,0,5"/>
+                        <TextBlock Text="Строка 3" Margin="0,0,0,5"/>
+                    </StackPanel>
+                </StackPanel>
+
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
+
